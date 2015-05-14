@@ -1,0 +1,1 @@
+../../../AdvancedCollectionView/AdvancedCollectionView/ViewControllers/AAPLSwipeToEditStateMachine.h

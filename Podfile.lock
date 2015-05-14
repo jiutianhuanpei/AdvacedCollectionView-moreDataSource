@@ -1,0 +1,14 @@
+PODS:
+  - AdvancedCollectionView (1.0)
+
+DEPENDENCIES:
+  - AdvancedCollectionView (from `https://github.com/akolov/AdvancedCollectionView.git`)
+
+EXTERNAL SOURCES:
+  AdvancedCollectionView:
+    :git: https://github.com/akolov/AdvancedCollectionView.git
+
+SPEC CHECKSUMS:
+  AdvancedCollectionView: 27bf28c4235f693b41c4b9be5d4c56231590a506
+
+COCOAPODS: 0.34.4
