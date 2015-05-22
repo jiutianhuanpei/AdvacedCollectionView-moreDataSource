@@ -9,9 +9,9 @@
 #import "NSString+time.h"
 
 @implementation NSString (time)
-+ (NSString *)timeByTimestamp:(CGFloat)timestamp {
++ (NSString *)timeByTimestamp:(double)timestamp {
     
-    NSTimeZone *zone = [NSTimeZone timeZoneWithName:@"Asia/Chita"];
+    NSTimeZone *zone = [NSTimeZone timeZoneWithName:@"Asia/Shanghai"];
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"yyyy-MM-dd aa h:mm"];

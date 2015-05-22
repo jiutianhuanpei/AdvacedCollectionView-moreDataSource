@@ -15,13 +15,14 @@
 		4D502E101B043F5500B23824 /* SHBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D502E0F1B043F5500B23824 /* SHBCell.m */; };
 		4D502E131B044F7B00B23824 /* SHBThirdDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D502E121B044F7B00B23824 /* SHBThirdDataSource.m */; };
 		4D502E161B04506F00B23824 /* SHBSegmentedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D502E151B04506F00B23824 /* SHBSegmentedDataSource.m */; };
+		4D502E1A1B048C6B00B23824 /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D502E191B048C6B00B23824 /* NSString+time.m */; };
 		4D81E58B1B03053500E79652 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E58A1B03053500E79652 /* RootViewController.m */; };
-		4D81E5911B03459400E79652 /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E5901B03459400E79652 /* NSString+time.m */; };
 		4D81E5CA1B0358CA00E79652 /* SHBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E5C91B0358CA00E79652 /* SHBController.m */; };
 		4D81E5CD1B0359EC00E79652 /* SHBComposedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E5CC1B0359EC00E79652 /* SHBComposedDataSource.m */; };
 		4D81E5D01B035AE000E79652 /* SHBFirstDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E5CF1B035AE000E79652 /* SHBFirstDataSource.m */; };
 		4D81E5D31B035C7900E79652 /* SHBFourthDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E5D21B035C7900E79652 /* SHBFourthDataSource.m */; };
 		4D81E5D61B035CAC00E79652 /* SHBSecondDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E5D51B035CAC00E79652 /* SHBSecondDataSource.m */; };
+		4DF1187F1B05F5E200DA8350 /* SHBSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1187E1B05F5E200DA8350 /* SHBSectionHeaderView.m */; };
 		F4B522E87A8B6B99C18D8675 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F944941EAD523C7DB30571FD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +54,10 @@
 		4D502E121B044F7B00B23824 /* SHBThirdDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBThirdDataSource.m; sourceTree = "<group>"; };
 		4D502E141B04506F00B23824 /* SHBSegmentedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBSegmentedDataSource.h; sourceTree = "<group>"; };
 		4D502E151B04506F00B23824 /* SHBSegmentedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBSegmentedDataSource.m; sourceTree = "<group>"; };
+		4D502E181B048C6B00B23824 /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
+		4D502E191B048C6B00B23824 /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
 		4D81E5891B03053500E79652 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		4D81E58A1B03053500E79652 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		4D81E58F1B03459400E79652 /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
-		4D81E5901B03459400E79652 /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
 		4D81E5C81B0358CA00E79652 /* SHBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBController.h; sourceTree = "<group>"; };
 		4D81E5C91B0358CA00E79652 /* SHBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBController.m; sourceTree = "<group>"; };
 		4D81E5CB1B0359EC00E79652 /* SHBComposedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBComposedDataSource.h; sourceTree = "<group>"; };
@@ -67,6 +68,8 @@
 		4D81E5D21B035C7900E79652 /* SHBFourthDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBFourthDataSource.m; sourceTree = "<group>"; };
 		4D81E5D41B035CAC00E79652 /* SHBSecondDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBSecondDataSource.h; sourceTree = "<group>"; };
 		4D81E5D51B035CAC00E79652 /* SHBSecondDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBSecondDataSource.m; sourceTree = "<group>"; };
+		4DF1187D1B05F5E200DA8350 /* SHBSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBSectionHeaderView.h; sourceTree = "<group>"; };
+		4DF1187E1B05F5E200DA8350 /* SHBSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBSectionHeaderView.m; sourceTree = "<group>"; };
 		CBCB13D2B378FE92AFEF75CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F944941EAD523C7DB30571FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,11 +134,13 @@
 				4D81E5CC1B0359EC00E79652 /* SHBComposedDataSource.m */,
 				4D502E141B04506F00B23824 /* SHBSegmentedDataSource.h */,
 				4D502E151B04506F00B23824 /* SHBSegmentedDataSource.m */,
+				4DF1187D1B05F5E200DA8350 /* SHBSectionHeaderView.h */,
+				4DF1187E1B05F5E200DA8350 /* SHBSectionHeaderView.m */,
 				4D502E171B0472D900B23824 /* dataSource */,
 				4D502E0E1B043F5500B23824 /* SHBCell.h */,
 				4D502E0F1B043F5500B23824 /* SHBCell.m */,
-				4D81E58F1B03459400E79652 /* NSString+time.h */,
-				4D81E5901B03459400E79652 /* NSString+time.m */,
+				4D502E181B048C6B00B23824 /* NSString+time.h */,
+				4D502E191B048C6B00B23824 /* NSString+time.m */,
 				4D361F371AFEFAE0002F2186 /* Images.xcassets */,
 				4D361F391AFEFAE0002F2186 /* LaunchScreen.xib */,
 				4D361F301AFEFAE0002F2186 /* Supporting Files */,
@@ -328,10 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D81E5CD1B0359EC00E79652 /* SHBComposedDataSource.m in Sources */,
-				4D81E5911B03459400E79652 /* NSString+time.m in Sources */,
 				4D502E131B044F7B00B23824 /* SHBThirdDataSource.m in Sources */,
 				4D81E5D61B035CAC00E79652 /* SHBSecondDataSource.m in Sources */,
 				4D361F361AFEFAE0002F2186 /* AppDelegate.m in Sources */,
+				4D502E1A1B048C6B00B23824 /* NSString+time.m in Sources */,
 				4D361F331AFEFAE0002F2186 /* main.m in Sources */,
 				4D502E161B04506F00B23824 /* SHBSegmentedDataSource.m in Sources */,
 				4D81E5D01B035AE000E79652 /* SHBFirstDataSource.m in Sources */,
@@ -339,6 +344,7 @@
 				4D81E5D31B035C7900E79652 /* SHBFourthDataSource.m in Sources */,
 				4D81E5CA1B0358CA00E79652 /* SHBController.m in Sources */,
 				4D502E101B043F5500B23824 /* SHBCell.m in Sources */,
+				4DF1187F1B05F5E200DA8350 /* SHBSectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,9 +463,12 @@
 			baseConfigurationReference = 145B3414F8343FBC5718CC71 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Liu (TSH7V389S8)";
 				INFOPLIST_FILE = coll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64c8c1a1-443b-4c2e-8beb-2e8d9461abb6";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -468,9 +477,12 @@
 			baseConfigurationReference = CBCB13D2B378FE92AFEF75CD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Liu (TSH7V389S8)";
 				INFOPLIST_FILE = coll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64c8c1a1-443b-4c2e-8beb-2e8d9461abb6";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};

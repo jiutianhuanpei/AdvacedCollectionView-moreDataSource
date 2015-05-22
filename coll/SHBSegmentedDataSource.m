@@ -14,7 +14,7 @@
 
 @implementation SHBSegmentedDataSource {
     SHBFirstDataSource *_firstDataSource;
-    SHBFourthDataSource *_sectionDataSource;
+    SHBFourthDataSource *_fourthDataSource;
     SHBSecondDataSource *_secondDataSource;
     SHBThirdDataSource *_thirdDataSource;
 }
@@ -28,13 +28,13 @@
         _secondDataSource = [[SHBSecondDataSource alloc] init];
         [self addDataSource:_secondDataSource];
         
-        _thirdDataSource = [[SHBThirdDataSource alloc] init];
-        _thirdDataSource.defaultMetrics.numberOfColumns = 4;
-        _thirdDataSource.defaultMetrics.separatorColor = [UIColor grayColor];
-        [self addDataSource:_thirdDataSource];
-        
-        _sectionDataSource = [[SHBFourthDataSource alloc] init];
-        [self addDataSource:_sectionDataSource];
+//        _thirdDataSource = [[SHBThirdDataSource alloc] init];
+//        _thirdDataSource.defaultMetrics.numberOfColumns = 4;
+//        _thirdDataSource.defaultMetrics.separatorColor = [UIColor grayColor];
+//        [self addDataSource:_thirdDataSource];
+//        
+//        _fourthDataSource = [[SHBFourthDataSource alloc] init];
+//        [self addDataSource:_fourthDataSource];
         
     }
     return self;
